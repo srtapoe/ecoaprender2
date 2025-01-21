@@ -70,11 +70,19 @@ body {
 .hero h1 {
     font-size: 3rem;
     margin: 0 0 10px;
+    font-size: 36px;  /* Ajuste o tamanho da fonte do título */
+    text-align: center;  /* Centraliza o título */
 }
 
 .hero p {
     font-size: 1.2rem;
     margin: 0 0 20px;
+}
+
+.hero img {
+    width: 300px;  /* Ajuste o tamanho conforme necessário */
+    margin-top: 0; /* Centraliza a logo e coloca um espaçamento abaixo */
+    padding-top: 0px; /* Adiciona um espaçamento acima da logo */
 }
 
 .btn {

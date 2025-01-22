@@ -175,3 +175,22 @@ footer {
 .coleta-container{
     text-align: justify;
 }
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+figure img {
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+    color: #555;
+}

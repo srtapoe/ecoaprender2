@@ -194,3 +194,132 @@ figcaption {
     margin-top: 10px;
     color: #555;
 }
+
+/* Seções - Cinza */
+section {
+    background-color: #f0f0f0;  /* Cor de fundo cinza */
+    margin-bottom: 0;  /* Remover o espaço abaixo da seção */
+    width: 100%; /* Garantir 100% de largura */
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: #4caf50;
+    margin-bottom: 1rem;
+}
+
+/* Seção de Pontos de Recebimento - Verde */
+#pontos-descarte {
+    background-color: #4caf50;  /* Verde */
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+    width: 100%;  /* Garantir que ocupe toda a largura */
+    margin-bottom: 0; /* Remover o espaço abaixo da seção verde */
+}
+
+.descartar-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.descartar-container {
+    width: 100%;  /* Faz a seção ocupar toda a largura disponível */
+    max-width: 1200px;  /* A mesma largura do menu */
+    margin: 0 auto;  /* Centraliza a seção */
+    padding: 0 20px; /* Ajuste do padding para não ficar colado nas bordas */
+}
+
+.descartar-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.descartar-container p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.btn-descartar, .btn-mapa {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-size: 16px;
+    color: white;
+    background-color: #4caf50;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-descartar {
+    background-color: #ccc;
+}
+
+.btn-mapa:hover {
+    background-color: #45a049;
+}
+
+.btn-descartar:hover {
+    background-color: #555;
+}
+
+.map-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#alerta {
+    width: 150px; /* Tamanho da imagem */
+    display: inline-block;
+}
+
+ /* Isolando os estilos apenas para a seção de links */
+ .styled-links ul {
+    list-style: none; /* Remove os marcadores somente aqui */
+    padding: 0;
+}
+
+.styled-links ul li {
+    margin: 10px 0; /* Espaçamento entre os itens */
+}
+
+.styled-links ul li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #4caf50; /* Verde do tema */
+    font-size: 1.1em;
+    padding: 10px;
+    border: 2px solid #4caf50; /* Borda verde */
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.3s ease; /* Suaviza as transições */
+}
+
+.styled-links ul li a:hover {
+    background-color: #4caf50; /* Fundo verde no hover */
+    color: #ffffff; /* Texto branco no hover */
+}
+
+#ecoponto {
+    display: block; /* Garante que seja tratado como bloco para centralização */
+    margin: 20px auto; /* Centraliza horizontalmente */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra leve */
+}

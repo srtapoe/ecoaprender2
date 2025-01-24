@@ -131,6 +131,7 @@ body {
 .services {
     background-color: #e0ffe0;
     padding: 50px 20px;
+    text-align: center;
 }
 
 .services h2 {
@@ -320,8 +321,6 @@ iframe {
     display: block; /* Garante que seja tratado como bloco para centralização */
     margin: 20px auto; /* Centraliza horizontalmente */
     height: auto; /* Mantém a proporção da imagem */
-    border-radius: 8px; /* Adiciona bordas arredondadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona sombra leve */
 }
 
 /* Estilos para o menu */
@@ -389,4 +388,50 @@ iframe {
 .grid-layout iframe {
     width: 100%; /* Preenche toda a largura da coluna */
     border: none;
+}
+
+/* Estilos para a página de reciclagem */
+.recycling-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.recycling-content h2 {
+    font-size: 1.8rem;
+    color: #2a9d8f;
+    margin-bottom: 15px;
+}
+
+.recycling-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.recycling-content ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.recycling-content ul li {
+    margin-bottom: 10px;
+}
+
+.recycling-content a {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+.recycling-content a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+    font-size: 0.9rem;
 }
